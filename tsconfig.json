@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "target": "es6",
+        "lib": [
+            "es6",
+            "esnext",
+            "es2015",
+            "dom"
+        ],
+        "noImplicitAny": false,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "declaration": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "baseUrl": ".",
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

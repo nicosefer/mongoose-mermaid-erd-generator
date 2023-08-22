@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-mermaid-erd-generator",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "rabbitmq-migrate": "./dist/bin/mongoose-mermaid-erd-generator.ts"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "chmod +x ./dist/bin/rabbitmq-schema-migrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "glob": "^10.3.3",
+    "mongoose": "^7.4.4"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.5.3",
+    "typescript": "^5.1.6"
+  }
+}
